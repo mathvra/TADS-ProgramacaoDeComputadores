@@ -1,5 +1,6 @@
 def somaPares(lista):
-    if len(lista) == 1: #Quando a lista chega à ou tem apenas 1 elemento
+    print(lista)
+    if len(lista) == 1: #Quando a lista chega à 1 ou tem apenas 1 elemento
         if(lista[0]%2==0):
             return lista[0]
         else:
